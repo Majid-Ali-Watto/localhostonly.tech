@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalhostOnly.tech by Majid Ali | Full Stack Software Delivery Company</title>
+    <meta name="description" content="LocalhostOnly.tech is the software delivery company of Majid Ali, a Full Stack Web Developer in Islamabad, Pakistan. We build web apps, APIs, company portals, backend systems, and deployment pipelines.">
+    <meta name="author" content="Majid Ali">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://localhostonly.tech.vercel.app/">
+    <meta property="og:site_name" content="LocalhostOnly.tech">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://localhostonly.tech.vercel.app/">
+    <meta property="og:title" content="LocalhostOnly.tech by Majid Ali">
+    <meta property="og:description" content="Full-stack software delivery company owned by Majid Ali, building web apps, APIs, backend systems, company portals, and deployment pipelines.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LocalhostOnly.tech by Majid Ali">
+    <meta name="twitter:description" content="The software delivery company of Majid Ali, Full Stack Web Developer in Islamabad, Pakistan.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "WebSite",
+                    "@id": "https://localhostonly.tech.vercel.app/#website",
+                    "name": "LocalhostOnly.tech",
+                    "alternateName": ["LocalhostOnly", "LocalhostOnly tech"],
+                    "url": "https://localhostonly.tech.vercel.app/",
+                    "publisher": {
+                        "@id": "https://localhostonly.tech.vercel.app/#organization"
+                    }
+                },
+                {
+                    "@type": "Organization",
+                    "@id": "https://localhostonly.tech.vercel.app/#organization",
+                    "name": "LocalhostOnly.tech",
+                    "url": "https://localhostonly.tech.vercel.app/",
+                    "email": "mailto:majidaliqau@gmail.com",
+                    "founder": {
+                        "@id": "https://localhostonly.tech.vercel.app/#majid-ali"
+                    },
+                    "sameAs": [
+                        "https://majidev.netlify.app/",
+                        "https://github.com/Majid-Ali-Watto",
+                        "https://www.linkedin.com/in/majid-ali-074b97245/",
+                        "https://medium.com/@majid.teresol",
+                        "https://www.upwork.com/freelancers/~018c214d3139f0f30e"
+                    ],
+                    "knowsAbout": [
+                        "Full Stack Web Development",
+                        "Vue.js",
+                        "React",
+                        "Node.js",
+                        "Express",
+                        "PostgreSQL",
+                        "MongoDB",
+                        "API Integration",
+                        "Deployment Pipelines"
+                    ]
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https://localhostonly.tech.vercel.app/#majid-ali",
+                    "name": "Majid Ali",
+                    "url": "https://majidev.netlify.app/",
+                    "jobTitle": "Full Stack Web Developer",
+                    "email": "mailto:majidaliqau@gmail.com",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Islamabad",
+                        "addressCountry": "PK"
+                    },
+                    "sameAs": [
+                        "https://github.com/Majid-Ali-Watto",
+                        "https://www.linkedin.com/in/majid-ali-074b97245/",
+                        "https://medium.com/@majid.teresol",
+                        "https://www.upwork.com/freelancers/~018c214d3139f0f30e"
+                    ]
+                },
+                {
+                    "@type": "ProfessionalService",
+                    "@id": "https://localhostonly.tech.vercel.app/#software-service",
+                    "name": "LocalhostOnly.tech",
+                    "url": "https://localhostonly.tech.vercel.app/",
+                    "email": "mailto:majidaliqau@gmail.com",
+                    "areaServed": "Worldwide",
+                    "founder": {
+                        "@id": "https://localhostonly.tech.vercel.app/#majid-ali"
+                    },
+                    "serviceType": [
+                        "Full-stack web application development",
+                        "Company portal development",
+                        "Backend API development",
+                        "DevOps and deployment pipeline setup"
+                    ]
+                }
+            ]
+        }
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg: #071014;
+            --surface: #0d1a21;
+            --surface-strong: #122832;
+            --line: #23404a;
+            --text: #edf7f9;
+            --muted: #9cb4bb;
+            --accent: #4fd1c5;
+            --accent-strong: #f2c94c;
+            --ink: #061012;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            min-height: 100vh;
+            background: var(--bg);
+            color: var(--text);
+            font-family: Inter, "Segoe UI", Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        a {
+            color: inherit;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 2rem;
+            padding: 1rem clamp(1rem, 5vw, 5rem);
+            background: rgba(7, 16, 20, 0.88);
+            border-bottom: 1px solid rgba(79, 209, 197, 0.2);
+            backdrop-filter: blur(18px);
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-weight: 800;
+            letter-spacing: 0;
+            text-decoration: none;
+        }
+
+        .brand-mark {
+            display: grid;
+            place-items: center;
+            width: 2.4rem;
+            height: 2.4rem;
+            border: 1px solid rgba(79, 209, 197, 0.45);
+            border-radius: 8px;
+            background: linear-gradient(135deg, rgba(79, 209, 197, 0.22), rgba(242, 201, 76, 0.12));
+            color: var(--accent);
+            font-family: "SFMono-Regular", Consolas, monospace;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 1.35rem;
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        nav a {
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: var(--text);
+        }
+
+        .nav-cta,
+        .button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 2.65rem;
+            padding: 0 1.05rem;
+            border-radius: 8px;
+            background: var(--accent);
+            color: var(--ink);
+            font-weight: 800;
+            text-decoration: none;
+            border: 1px solid transparent;
+            transition: transform 180ms ease, background 180ms ease, border-color 180ms ease;
+        }
+
+        .button:hover,
+        .nav-cta:hover {
+            transform: translateY(-1px);
+            background: #76e4d8;
+            color: var(--ink);
+        }
+
+        .button.secondary {
+            background: transparent;
+            color: var(--text);
+            border-color: rgba(237, 247, 249, 0.25);
+        }
+
+        .button.secondary:hover {
+            border-color: var(--accent);
+            background: rgba(79, 209, 197, 0.08);
+        }
+
+        main {
+            overflow: hidden;
+        }
+
+        .hero {
+            min-height: calc(100vh - 73px);
+            display: grid;
+            grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+            align-items: center;
+            gap: clamp(2rem, 5vw, 5rem);
+            padding: clamp(3rem, 7vw, 6rem) clamp(1rem, 5vw, 5rem) 4rem;
+            background:
+                linear-gradient(120deg, rgba(7, 16, 20, 0.92), rgba(7, 16, 20, 0.68)),
+                url("https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1800&q=80") center / cover;
+        }
+
+        .eyebrow {
+            color: var(--accent-strong);
+            font-weight: 800;
+            text-transform: uppercase;
+            font-size: 0.78rem;
+            letter-spacing: 0.12em;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            max-width: 760px;
+            color: #ffffff;
+            font-size: clamp(2.75rem, 7vw, 5.8rem);
+            line-height: 0.96;
+            letter-spacing: 0;
+            margin-bottom: 1.35rem;
+        }
+
+        .lead {
+            max-width: 680px;
+            color: #c7d7dc;
+            font-size: clamp(1.05rem, 2vw, 1.25rem);
+            margin-bottom: 1rem;
+        }
+
+        .brand-claim {
+            max-width: 680px;
+            margin-bottom: 2rem;
+            color: #dbe9ed;
+            font-weight: 700;
+        }
+
+        .hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.85rem;
+            margin-bottom: 2rem;
+        }
+
+        .trust-row {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 0.75rem;
+            max-width: 680px;
+        }
+
+        .trust-item {
+            border-left: 2px solid var(--accent);
+            padding-left: 0.9rem;
+        }
+
+        .trust-item strong {
+            display: block;
+            color: #ffffff;
+            font-size: 1.25rem;
+        }
+
+        .trust-item span {
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        .console {
+            align-self: stretch;
+            min-height: 440px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 1px solid rgba(79, 209, 197, 0.32);
+            border-radius: 8px;
+            background: rgba(6, 16, 18, 0.82);
+            box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+            overflow: hidden;
+        }
+
+        .console-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.9rem 1rem;
+            border-bottom: 1px solid var(--line);
+            background: rgba(18, 40, 50, 0.9);
+            color: var(--muted);
+            font-size: 0.82rem;
+            font-family: "SFMono-Regular", Consolas, monospace;
+        }
+
+        .status-dot {
+            width: 0.68rem;
+            height: 0.68rem;
+            border-radius: 50%;
+            background: var(--accent);
+            box-shadow: 0 0 18px rgba(79, 209, 197, 0.95);
+        }
+
+        .console-body {
+            padding: 1.2rem;
+            display: grid;
+            gap: 1rem;
+        }
+
+        .pipeline-step {
+            display: grid;
+            grid-template-columns: 2.4rem 1fr auto;
+            align-items: center;
+            gap: 0.85rem;
+            padding: 1rem;
+            border: 1px solid rgba(237, 247, 249, 0.11);
+            border-radius: 8px;
+            background: rgba(13, 26, 33, 0.78);
+        }
+
+        .step-number {
+            display: grid;
+            place-items: center;
+            width: 2.4rem;
+            height: 2.4rem;
+            border-radius: 8px;
+            background: rgba(79, 209, 197, 0.12);
+            color: var(--accent);
+            font-weight: 800;
+            font-family: "SFMono-Regular", Consolas, monospace;
+        }
+
+        .pipeline-step h3 {
+            color: #ffffff;
+            font-size: 1rem;
+            margin-bottom: 0.15rem;
+        }
+
+        .pipeline-step p {
+            color: var(--muted);
+            font-size: 0.86rem;
+        }
+
+        .step-state {
+            color: var(--accent);
+            font-size: 0.82rem;
+            font-weight: 800;
+        }
+
+        .console-footer {
+            padding: 1rem 1.2rem;
+            border-top: 1px solid var(--line);
+            color: var(--muted);
+            font-family: "SFMono-Regular", Consolas, monospace;
+            font-size: 0.82rem;
+        }
+
+        section {
+            padding: clamp(3.5rem, 7vw, 6rem) clamp(1rem, 5vw, 5rem);
+        }
+
+        .section-head {
+            max-width: 760px;
+            margin-bottom: 2.25rem;
+        }
+
+        .section-head h2 {
+            color: #ffffff;
+            font-size: clamp(2rem, 4vw, 3.25rem);
+            line-height: 1.08;
+            margin-bottom: 0.8rem;
+        }
+
+        .section-head p {
+            color: var(--muted);
+            font-size: 1.04rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 1rem;
+        }
+
+        .card {
+            min-height: 100%;
+            padding: 1.35rem;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: var(--surface);
+        }
+
+        .card-kicker {
+            width: fit-content;
+            margin-bottom: 1rem;
+            padding: 0.3rem 0.55rem;
+            border: 1px solid rgba(79, 209, 197, 0.25);
+            border-radius: 6px;
+            color: var(--accent);
+            font-family: "SFMono-Regular", Consolas, monospace;
+            font-size: 0.78rem;
+        }
+
+        .card h3 {
+            color: #ffffff;
+            font-size: 1.25rem;
+            margin-bottom: 0.65rem;
+        }
+
+        .card p {
+            color: var(--muted);
+        }
+
+        .band {
+            background: #0a171d;
+            border-top: 1px solid rgba(79, 209, 197, 0.12);
+            border-bottom: 1px solid rgba(79, 209, 197, 0.12);
+        }
+
+        .split {
+            display: grid;
+            grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+            gap: clamp(2rem, 5vw, 5rem);
+            align-items: start;
+        }
+
+        .about-panel {
+            padding: 1.5rem;
+            border-left: 3px solid var(--accent-strong);
+            background: rgba(242, 201, 76, 0.06);
+        }
+
+        .about-panel h2 {
+            color: #ffffff;
+            font-size: clamp(2rem, 4vw, 3rem);
+            line-height: 1.1;
+            margin-bottom: 1rem;
+        }
+
+        .about-panel p,
+        .about-copy p {
+            color: var(--muted);
+            margin-bottom: 1rem;
+        }
+
+        .values {
+            display: grid;
+            gap: 0.85rem;
+        }
+
+        .value {
+            padding: 1rem;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: rgba(13, 26, 33, 0.72);
+        }
+
+        .value strong {
+            display: block;
+            color: #ffffff;
+            margin-bottom: 0.25rem;
+        }
+
+        .value span {
+            color: var(--muted);
+        }
+
+        .owner {
+            background: var(--bg);
+        }
+
+        .owner-card {
+            display: grid;
+            grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+            gap: clamp(1.5rem, 4vw, 3rem);
+            padding: clamp(1.35rem, 4vw, 2.25rem);
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: linear-gradient(135deg, rgba(18, 40, 50, 0.92), rgba(13, 26, 33, 0.88));
+        }
+
+        .owner-title h2 {
+            color: #ffffff;
+            font-size: clamp(2rem, 4vw, 3rem);
+            line-height: 1.08;
+            margin-bottom: 0.9rem;
+        }
+
+        .owner-title p,
+        .owner-copy p {
+            color: var(--muted);
+            margin-bottom: 1rem;
+        }
+
+        .owner-meta {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 0.75rem;
+            margin-top: 1.25rem;
+        }
+
+        .meta-pill {
+            padding: 0.85rem;
+            border: 1px solid rgba(79, 209, 197, 0.22);
+            border-radius: 8px;
+            background: rgba(7, 16, 20, 0.55);
+        }
+
+        .meta-pill span {
+            display: block;
+            color: var(--muted);
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+
+        .meta-pill strong {
+            color: #ffffff;
+        }
+
+        .owner-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0 1.35rem;
+        }
+
+        .owner-tags span {
+            padding: 0.35rem 0.6rem;
+            border: 1px solid rgba(242, 201, 76, 0.28);
+            border-radius: 6px;
+            color: #ffe28a;
+            font-family: "SFMono-Regular", Consolas, monospace;
+            font-size: 0.78rem;
+        }
+
+        .link-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 0.75rem;
+        }
+
+        .profile-link {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 3rem;
+            padding: 0 0.85rem;
+            border: 1px solid rgba(237, 247, 249, 0.14);
+            border-radius: 8px;
+            background: rgba(7, 16, 20, 0.58);
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .profile-link:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        .profile-link span {
+            color: var(--accent);
+            font-family: "SFMono-Regular", Consolas, monospace;
+        }
+
+        .process {
+            counter-reset: step;
+        }
+
+        .process .card::before {
+            counter-increment: step;
+            content: "0" counter(step);
+            display: block;
+            color: var(--accent-strong);
+            font-family: "SFMono-Regular", Consolas, monospace;
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }
+
+        .contact {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(280px, 0.55fr);
+            gap: 1.5rem;
+            align-items: stretch;
+        }
+
+        .contact-box {
+            padding: clamp(1.5rem, 4vw, 2.5rem);
+            border-radius: 8px;
+            background: var(--accent);
+            color: var(--ink);
+        }
+
+        .contact-box h2 {
+            font-size: clamp(2rem, 4vw, 3rem);
+            line-height: 1.08;
+            margin-bottom: 1rem;
+        }
+
+        .contact-box p {
+            max-width: 680px;
+            margin-bottom: 1.5rem;
+            color: rgba(6, 16, 18, 0.82);
+            font-weight: 600;
+        }
+
+        .contact-box .button {
+            background: var(--ink);
+            color: var(--text);
+        }
+
+        .contact-details {
+            display: grid;
+            gap: 1rem;
+            padding: 1.35rem;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: var(--surface);
+        }
+
+        .detail {
+            border-bottom: 1px solid rgba(237, 247, 249, 0.1);
+            padding-bottom: 0.9rem;
+        }
+
+        .detail:last-child {
+            border-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .detail span {
+            display: block;
+            color: var(--muted);
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 0.2rem;
+        }
+
+        .detail strong {
+            color: #ffffff;
+        }
+
+        .detail a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .detail a:hover {
+            color: var(--accent);
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+            padding: 1.5rem clamp(1rem, 5vw, 5rem);
+            border-top: 1px solid rgba(79, 209, 197, 0.16);
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 960px) {
+            .hero,
+            .split,
+            .owner-card,
+            .contact {
+                grid-template-columns: 1fr;
+            }
+
+            .hero {
+                min-height: auto;
+            }
+
+            .console {
+                min-height: 390px;
+            }
+
+            .grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 720px) {
+            header {
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 0.9rem;
+            }
+
+            nav {
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 0.7rem;
+                overflow: visible;
+                padding-bottom: 0;
+            }
+
+            nav a {
+                text-align: center;
+            }
+
+            .nav-cta {
+                grid-column: 1 / -1;
+                width: 100%;
+                min-width: 0;
+            }
+
+            .hero {
+                padding-top: 3rem;
+            }
+
+            .trust-row,
+            .grid,
+            .owner-meta,
+            .link-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .pipeline-step {
+                grid-template-columns: 2.4rem 1fr;
+            }
+
+            .step-state {
+                grid-column: 2;
+            }
+
+            footer {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a class="brand" href="#top" aria-label="LocalhostOnly.tech home">
+            <span class="brand-mark">LO</span>
+            <span>LocalhostOnly.tech</span>
+        </a>
+        <nav aria-label="Primary navigation">
+            <a href="#services">Services</a>
+            <a href="#company">Company</a>
+            <a href="#founder">Founder</a>
+            <a href="#process">Process</a>
+            <a class="nav-cta" href="#contact">Book a consult</a>
+        </nav>
+    </header>
+
+    <main id="top">
+        <section class="hero">
+            <div>
+                <p class="eyebrow">Software delivery company</p>
+                <h1>We build reliable web systems for growing teams.</h1>
+                <p class="lead">
+                    LocalhostOnly.tech partners with companies that need dependable web applications,
+                    backend platforms, and deployment pipelines without the ceremony of a large agency.
+                </p>
+                <p class="brand-claim">
+                    Founded and operated by Majid Ali, Full Stack Web Developer in Islamabad, Pakistan.
+                </p>
+                <div class="hero-actions" aria-label="Company actions">
+                    <a class="button" href="#contact">Start a project</a>
+                    <a class="button secondary" href="#services">View services</a>
+                </div>
+                <div class="trust-row" aria-label="Company highlights">
+                    <div class="trust-item">
+                        <strong>Full-stack</strong>
+                        <span>Product engineering</span>
+                    </div>
+                    <div class="trust-item">
+                        <strong>Secure</strong>
+                        <span>API and data workflows</span>
+                    </div>
+                    <div class="trust-item">
+                        <strong>Production</strong>
+                        <span>Launch and support</span>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="console" aria-label="Delivery pipeline preview">
+                <div class="console-top">
+                    <span>company-delivery.pipeline</span>
+                    <span class="status-dot" aria-hidden="true"></span>
+                </div>
+                <div class="console-body">
+                    <div class="pipeline-step">
+                        <span class="step-number">01</span>
+                        <div>
+                            <h3>Discovery sprint</h3>
+                            <p>Scope, risks, architecture, and launch plan aligned with stakeholders.</p>
+                        </div>
+                        <span class="step-state">ready</span>
+                    </div>
+                    <div class="pipeline-step">
+                        <span class="step-number">02</span>
+                        <div>
+                            <h3>Product build</h3>
+                            <p>Frontend, backend, integrations, and infrastructure delivered together.</p>
+                        </div>
+                        <span class="step-state">active</span>
+                    </div>
+                    <div class="pipeline-step">
+                        <span class="step-number">03</span>
+                        <div>
+                            <h3>Launch support</h3>
+                            <p>Monitoring, deployment runbooks, maintenance, and iteration after release.</p>
+                        </div>
+                        <span class="step-state">stable</span>
+                    </div>
+                </div>
+                <div class="console-footer">status: company systems ready for production</div>
+            </aside>
+        </section>
+
+        <section id="services">
+            <div class="section-head">
+                <p class="eyebrow">What we do</p>
+                <h2>Practical engineering services for business-critical software.</h2>
+                <p>
+                    We help companies turn internal needs, customer products, and operational workflows
+                    into stable software that teams can actually maintain.
+                </p>
+            </div>
+            <div class="grid">
+                <article class="card">
+                    <p class="card-kicker">Web Apps</p>
+                    <h3>Company Portals</h3>
+                    <p>Dashboards, admin panels, customer portals, and internal tools designed for daily business use.</p>
+                </article>
+                <article class="card">
+                    <p class="card-kicker">Backend</p>
+                    <h3>APIs & Integrations</h3>
+                    <p>Secure Node.js services, database design, third-party integrations, and automation workflows.</p>
+                </article>
+                <article class="card">
+                    <p class="card-kicker">DevOps</p>
+                    <h3>Deployment Systems</h3>
+                    <p>CI/CD pipelines, cloud hosting, environment setup, monitoring, and release workflows.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="company" class="band">
+            <div class="split">
+                <div class="about-panel">
+                    <p class="eyebrow">Company profile</p>
+                    <h2>A lean software partner for companies that need momentum.</h2>
+                    <p>
+                        LocalhostOnly.tech is built for founders, agencies, and operations teams that need
+                        senior full-stack execution without adding permanent headcount.
+                    </p>
+                </div>
+                <div class="about-copy">
+                    <p>
+                        We focus on clear scopes, fast feedback, and maintainable foundations. Each engagement
+                        starts with understanding the business workflow, then translating it into software that
+                        can survive real users, real data, and real deadlines.
+                    </p>
+                    <div class="values">
+                        <div class="value">
+                            <strong>Business-first delivery</strong>
+                            <span>Every feature maps to an operational outcome, revenue path, or support need.</span>
+                        </div>
+                        <div class="value">
+                            <strong>Maintainable engineering</strong>
+                            <span>Codebases are documented, organized, and ready for future teams to extend.</span>
+                        </div>
+                        <div class="value">
+                            <strong>Launch ownership</strong>
+                            <span>We stay through deployment, production checks, and post-launch improvements.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="founder" class="owner">
+            <div class="owner-card">
+                <div class="owner-title">
+                    <p class="eyebrow">Who owns this company</p>
+                    <h2>LocalhostOnly.tech belongs to Majid Ali.</h2>
+                    <p>
+                        Majid Ali is a Full Stack Web Developer based in Islamabad, Pakistan.
+                        This company page connects the studio with his public developer identity,
+                        portfolio, code, writing, and freelance profiles.
+                    </p>
+                    <div class="owner-meta" aria-label="Owner profile summary">
+                        <div class="meta-pill">
+                            <span>Owner</span>
+                            <strong>Majid Ali</strong>
+                        </div>
+                        <div class="meta-pill">
+                            <span>Role</span>
+                            <strong>Full Stack Web Developer</strong>
+                        </div>
+                        <div class="meta-pill">
+                            <span>Location</span>
+                            <strong>Islamabad, Pakistan</strong>
+                        </div>
+                        <div class="meta-pill">
+                            <span>Email</span>
+                            <strong><a href="mailto:majidaliqau@gmail.com">majidaliqau@gmail.com</a></strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="owner-copy">
+                    <p>
+                        His published portfolio describes full-stack work across Vue, React,
+                        Node.js, Express, PostgreSQL, MongoDB, reusable frontend packages,
+                        micro frontend architecture, API integration, and production-focused
+                        software delivery.
+                    </p>
+                    <div class="owner-tags" aria-label="Owner technical focus">
+                        <span>Vue.js</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>PostgreSQL</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="link-grid" aria-label="Owner website and contact links">
+                        <a class="profile-link" href="https://majidev.netlify.app/" target="_blank" rel="noopener">Portfolio <span>open</span></a>
+                        <a class="profile-link" href="https://github.com/Majid-Ali-Watto" target="_blank" rel="noopener">GitHub <span>code</span></a>
+                        <a class="profile-link" href="https://www.linkedin.com/in/majid-ali-074b97245/" target="_blank" rel="noopener">LinkedIn <span>work</span></a>
+                        <a class="profile-link" href="https://medium.com/@majid.teresol" target="_blank" rel="noopener">Medium <span>read</span></a>
+                        <a class="profile-link" href="https://www.upwork.com/freelancers/~018c214d3139f0f30e" target="_blank" rel="noopener">Upwork <span>hire</span></a>
+                        <a class="profile-link" href="https://wa.me/923275065850" target="_blank" rel="noopener">WhatsApp <span>chat</span></a>
+                        <a class="profile-link" href="https://drive.google.com/file/d/1j3Vm4WiZoihRIf31BUXfMqxcKShU1Jot/view?usp=drivesdk" target="_blank" rel="noopener">Resume <span>view</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="process" class="process">
+            <div class="section-head">
+                <p class="eyebrow">How we work</p>
+                <h2>A company-friendly process from idea to production.</h2>
+            </div>
+            <div class="grid">
+                <article class="card">
+                    <h3>Align</h3>
+                    <p>We define goals, users, constraints, technical risks, and a practical delivery roadmap.</p>
+                </article>
+                <article class="card">
+                    <h3>Build</h3>
+                    <p>We ship working increments with visible progress, reviewable changes, and clear decisions.</p>
+                </article>
+                <article class="card">
+                    <h3>Operate</h3>
+                    <p>We prepare deployment, monitoring, documentation, and support plans for business continuity.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact">
+                <div class="contact-box">
+                    <h2>Bring us your next company software problem.</h2>
+                    <p>
+                        Share the workflow, product, or system your team needs to improve. We will help shape
+                        it into a practical build plan.
+                    </p>
+                    <a class="button" href="mailto:majidaliqau@gmail.com">Email Majid Ali</a>
+                </div>
+                <div class="contact-details" aria-label="Company contact details">
+                    <div class="detail">
+                        <span>Company</span>
+                        <strong>LocalhostOnly.tech</strong>
+                    </div>
+                    <div class="detail">
+                        <span>Owner</span>
+                        <strong>Majid Ali</strong>
+                    </div>
+                    <div class="detail">
+                        <span>Email</span>
+                        <strong><a href="mailto:majidaliqau@gmail.com">majidaliqau@gmail.com</a></strong>
+                    </div>
+                    <div class="detail">
+                        <span>Website</span>
+                        <strong><a href="https://localhostonly.tech.vercel.app/" target="_blank" rel="noopener">localhostonly.tech.vercel.app</a></strong>
+                    </div>
+                    <div class="detail">
+                        <span>GitHub</span>
+                        <strong><a href="https://github.com/Majid-Ali-Watto" target="_blank" rel="noopener">Majid-Ali-Watto</a></strong>
+                    </div>
+                    <div class="detail">
+                        <span>Services</span>
+                        <strong>Web apps, APIs, DevOps</strong>
+                    </div>
+                    <div class="detail">
+                        <span>Availability</span>
+                        <strong>Project-based engagements</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <span>&copy; 2026 LocalhostOnly.tech. All rights reserved.</span>
+        <span>Software delivery for modern companies.</span>
+    </footer>
+</body>
+</html>
